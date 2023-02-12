@@ -258,9 +258,9 @@ index 123..456 789
 +++ b/file1
 @@ -1,1 +1,1 @@
 - line1
-\\ No newline at end of file
+\ No newline at end of file
 + line2
-\\ No newline at end of file
+\ No newline at end of file
 `;
     const files = parse(diff);
     expect(files.length).toBe(1);
